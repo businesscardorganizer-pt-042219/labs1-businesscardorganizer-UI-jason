@@ -16,7 +16,7 @@
 /**
  * IE10+ doesn't honor `<meta name="viewport">` in some cases
  */
-@import '../assets/fonts/inter/Inter-web/inter.css';
+@import '../../../assets/fonts/inter/Inter-web/inter.css';
 @-ms-viewport {
   width: device-width;
 }
@@ -581,4 +581,60 @@ a:focus {
   font-style: normal;
   font-weight: 400;
   src: local('Cabin'), local('Cabin-Regular'), url(https://fonts.gstatic.com/s/cabin/v13/u-4x0qWljRw-Pd8w__g.ttf) format('truetype');
+}
+html,
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Cabin", sans-serif;
+  font-weight: bold;
+  line-height: 1.4;
+}
+h1 {
+  font-size: 3.2rem;
+}
+h2 {
+  font-size: 2.8rem;
+}
+h3 {
+  font-size: 2.4rem;
+}
+h4 {
+  font-size: 2rem;
+}
+h5,
+h6 {
+  line-height: 1.5;
+}
+h5 {
+  font-size: 1.6rem;
+}
+h6 {
+  font-size: 1.2rem;
+}
+p {
+  line-height: 1.3;
+}
+a {
+  transition: all 0.2s;
+}
+a:link,
+a:visited {
+  border-bottom: 1px dashed #B35E1A;
+  color: #B35E1A;
+}
+a:hover {
+  border-color: #8BD3D0;
+  color: #8BD3D0;
+}
+a:active {
+  border-color: #F25C60;
+  color: #F25C60;
 }
