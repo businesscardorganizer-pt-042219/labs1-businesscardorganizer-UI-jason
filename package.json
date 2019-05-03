@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-js": "webpack --mode=production",
+    "build-js": "webpack --config webpack.prod.config.js --mode=production",
     "build-less": "lessc --clean-css src/less/styles.less css/styles.min.css",
-    "watch-js": "webpack --watch --mode=development",
+    "watch-js": "webpack --config webpack.dev.config.js --watch --mode=development",
     "watch-less": "less-watch-compiler src/less src/css styles.less",
     "watch": "npm run watch-js && npm run watch-less",
     "build": "npm run build-less && npm run build-js"
