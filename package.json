@@ -1,0 +1,23 @@
+{
+  "name": "01-Business-Card-Manager",
+  "version": "1.0.0",
+  "description": "Project for Lambda School PT Build Week #1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/businesscardorganizer-pt-042219/labs1-businesscardorganizer-UI-jason.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/businesscardorganizer-pt-042219/labs1-businesscardorganizer-UI-jason/issues"
+  },
+  "homepage": "https://github.com/businesscardorganizer-pt-042219/labs1-businesscardorganizer-UI-jason#readme",
+  "dependencies": {
+    "css-reset-and-normalize": "^2.0.1"
+  }
+}
