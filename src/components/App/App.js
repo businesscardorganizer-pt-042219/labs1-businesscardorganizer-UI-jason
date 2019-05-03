@@ -1,5 +1,9 @@
-function sayHello() {
-    console.log('hello from App.js');
-}
+import {html} from 'lit-html';
 
-export {sayHello};
+const App = name => html`
+<div>
+    Hello, ${name}!
+</div>
+`;
+
+export default App;
