@@ -582,6 +582,3 @@ a:focus {
   font-weight: 400;
   src: local('Cabin'), local('Cabin-Regular'), url(https://fonts.gstatic.com/s/cabin/v13/u-4x0qWljRw-Pd8w__g.ttf) format('truetype');
 }
-body {
-  font-family: "Inter", sans-serif;
-}
