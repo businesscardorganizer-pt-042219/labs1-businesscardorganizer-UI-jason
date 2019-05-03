@@ -16,7 +16,7 @@
 /**
  * IE10+ doesn't honor `<meta name="viewport">` in some cases
  */
-@import '../fonts/inter/Inter-web/inter.css';
+@import url('https://rsms.me/inter/inter.css');
 @-ms-viewport {
   width: device-width;
 }
@@ -637,4 +637,7 @@ a:hover {
 a:active {
   border-color: #F25C60;
   color: #F25C60;
+}
+body {
+  background-color: #F25C60;
 }
