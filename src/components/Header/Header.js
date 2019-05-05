@@ -1,12 +1,14 @@
 import {html, LitElement} from 'lit-element';
+import '../LogoImg/LogoImg';
 
 class Header extends LitElement {
     render() {
         return html`
             <header id="primary" class="header">
-                // logo
-                // primary nav
-                // buttons - secondary nav
+                <!-- Logo Img -->
+                <logo-img></logo-img>
+                <!-- Primary Nav -->
+                <!-- buttons - secondary nav -->
             </header>
         `;
     }
