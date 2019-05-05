@@ -8,7 +8,7 @@
     "build-js": "rm app.bundle* && webpack --config webpack.prod.config.js --mode=production",
     "build-less": "lessc --clean-css src/less/styles.less css/styles.css",
     "watch-js": "webpack --config webpack.dev.config.js --watch --mode=development",
-    "watch-less": "less-watch-compiler src/less src/css styles.less",
+    "watch-less": "less-watch-compiler src/less dev/css styles.less",
     "watch": "run-p watch-js watch-less",
     "build": "npm run build-less && npm run build-js"
   },
@@ -25,7 +25,7 @@
   "homepage": "https://github.com/businesscardorganizer-pt-042219/labs1-businesscardorganizer-UI-jason#readme",
   "dependencies": {
     "css-reset-and-normalize": "^2.0.1",
-    "lit-html": "^1.0.0"
+    "lit-element": "^2.1.0"
   },
   "devDependencies": {
     "html-webpack-plugin": "^3.2.0",
