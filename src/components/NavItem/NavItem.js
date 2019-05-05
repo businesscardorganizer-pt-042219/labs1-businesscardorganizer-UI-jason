@@ -21,6 +21,10 @@ class NavItem extends LitElement {
             </li>
         `;
     }
+
+    createRenderRoot() {
+        return this;
+    }
 }
 
 window.customElements.define('nav-item', NavItem);

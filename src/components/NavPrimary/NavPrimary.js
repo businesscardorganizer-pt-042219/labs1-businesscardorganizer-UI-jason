@@ -45,6 +45,10 @@ class NavPrimary extends LitElement {
             </nav>
         `;
     }
+
+    createRenderRoot() {
+        return this;
+    }
 }
 
 window.customElements.define('nav-primary', NavPrimary);

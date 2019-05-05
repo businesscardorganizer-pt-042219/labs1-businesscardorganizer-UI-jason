@@ -14,6 +14,10 @@ class Header extends LitElement {
             </header>
         `;
     }
+
+    createRenderRoot() {
+        return this;
+    }
 }
 
 window.customElements.define('app-header', Header);
