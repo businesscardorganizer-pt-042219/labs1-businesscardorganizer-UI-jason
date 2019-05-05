@@ -1,5 +1,6 @@
 import {html, LitElement} from 'lit-element';
 import '../LogoImg/LogoImg';
+import '../NavPrimary/NavPrimary';
 
 class Header extends LitElement {
     render() {
@@ -8,6 +9,7 @@ class Header extends LitElement {
                 <!-- Logo Img -->
                 <logo-img></logo-img>
                 <!-- Primary Nav -->
+                <nav-primary></nav-primary>
                 <!-- buttons - secondary nav -->
             </header>
         `;

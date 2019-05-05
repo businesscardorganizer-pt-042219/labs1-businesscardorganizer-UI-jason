@@ -1,14 +1,50 @@
-import {html, render} from 'lit-html';
+import {html, LitElement} from 'lit-element';
+import '../NavItem/NavItem';
 
-const nav = () => html`
-    <nav id="primary" class="nav">
-        <ul class="nav-list">
-            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
-        </ul>
-    </nav>
-`;
+class NavPrimary extends LitElement {
+    static getProperties() {
+        return {navItems: Array};
+    }
 
-export {nav as NavPrimary};
+    constructor() {
+        super();
+        this.navItems = [
+            {
+                href: `#`,
+                title: `Home Page`,
+                text: `Home`,
+            },
+            {
+                href: `#`,
+                title: `About Us`,
+                text: `About`,
+            },
+            {
+                href: `#`,
+                title: `All Features`,
+                text: `Features`,
+            },
+            {
+                href: `#`,
+                title: `Contact Us`,
+                text: `Contact`,
+            },
+        ]
+    }
+
+    render() {
+        return html`
+            <nav id="primary" class="nav">
+                <ul class="nav-list">
+                    ${this.navItems.map(item => {
+                        return html`
+                            <nav-item .props="${item}"></nav-item>
+                        `;
+                    })}
+                </ul>
+            </nav>
+        `;
+    }
+}
+
+window.customElements.define('nav-primary', NavPrimary);
