@@ -664,15 +664,22 @@ body {
   padding-bottom: 1rem;
   text-align: center;
 }
-.content section {
+.content .section {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+.content .section-heading {
+  font-size: 2.3rem;
+  text-align: center;
 }
 .content #roadmap {
   background: #F0F3F3;
 }
 .content #roadmap .card {
   border-bottom: 1px solid #95B1AF;
+}
+.content #roadmap .card:last-child {
+  border-bottom: none;
 }
 #page-header {
   align-items: center;
@@ -741,7 +748,7 @@ body {
 }
 .cards .card {
   margin: auto;
-  padding: 1rem;
+  padding-bottom: 1rem;
 }
 .cards .card ~ .card {
   margin-top: 0.5rem;
@@ -755,6 +762,9 @@ body {
 .cards .card-md {
   max-width: 300px;
   width: 100%;
+}
+.cards .card-heading {
+  font-size: 2rem;
 }
 .cards .card-img {
   margin-top: 0.5rem;

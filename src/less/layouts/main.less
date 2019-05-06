@@ -10,8 +10,13 @@
         text-align: center;
     }
 
-    section {
+    .section {
         .plr(1rem);
+
+        &-heading {
+            font-size: 2.3rem;
+            text-align: center;
+        }
     }
 
     #roadmap {
@@ -19,6 +24,10 @@
 
         .card {
             .b-bottom(@color: @color-grey);
+
+            &:last-child {
+                border-bottom: none;
+            }
         }
     }
 }

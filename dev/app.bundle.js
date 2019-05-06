@@ -126,7 +126,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /*!*************************************************!*\
   !*** ./node_modules/lit-element/lit-element.js ***!
   \*************************************************/
-/*! exports provided: html, svg, TemplateResult, SVGTemplateResult, LitElement, defaultConverter, notEqual, UpdatingElement, customElement, property, query, queryAll, eventOptions, supportsAdoptingStyleSheets, CSSResult, unsafeCSS, css */
+/*! exports provided: defaultConverter, notEqual, UpdatingElement, customElement, property, query, queryAll, eventOptions, html, svg, TemplateResult, SVGTemplateResult, supportsAdoptingStyleSheets, CSSResult, unsafeCSS, css, LitElement */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -338,6 +338,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lit_
 
 /***/ }),
 
+/***/ "./src/components/TestimonialCards/TestimonialCards.js":
+/*!*************************************************************!*\
+  !*** ./src/components/TestimonialCards/TestimonialCards.js ***!
+  \*************************************************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lit_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lit-element */ \"./node_modules/lit-element/lit-element.js\");\n\r\n\r\nclass TestimonialCards extends lit_element__WEBPACK_IMPORTED_MODULE_0__[\"LitElement\"] {\r\n    static get properties() {\r\n        return {\r\n            props: {type: Array},\r\n        };\r\n    }\r\n\r\n    constructor() {\r\n        super();\r\n        this.props = [\r\n            {\r\n                name: \"John Doe\",\r\n                image: \"https://placeimg.com/100/100/people\",\r\n                text: \"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, laudantium corporis blanditiis commodi cum dolores nisi, molestiae dolorem a nostrum sed animi.\",\r\n            },\r\n            {\r\n                name: \"John Doe\",\r\n                image: \"https://placeimg.com/100/100/people\",\r\n                text: \"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, laudantium corporis blanditiis commodi cum dolores nisi, molestiae dolorem a nostrum sed animi.\",\r\n            },\r\n            {\r\n                name: \"John Doe\",\r\n                image: \"https://placeimg.com/100/100/people\",\r\n                text: \"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, laudantium corporis blanditiis commodi cum dolores nisi, molestiae dolorem a nostrum sed animi.\",\r\n            },\r\n        ];\r\n    }\r\n\r\n    render() {\r\n        return lit_element__WEBPACK_IMPORTED_MODULE_0__[\"html\"]`\r\n            <div class=\"cards\">\r\n                <div class=\"card card-media\">\r\n                    ${this.props.map(prop => {\r\n                        return lit_element__WEBPACK_IMPORTED_MODULE_0__[\"html\"]`\r\n                            <img class=\"card-img card-img-small card-media-img\" src=\"${prop.image}\" alt=\"${prop.name}\">\r\n                            <p class card-text card-media-text>${prop.text} ~ ${prop.name}</p>\r\n                        `;\r\n                    })}\r\n                </div>\r\n            </div>\r\n        `;\r\n    }\r\n\r\n    createRenderRoot() {\r\n        return this;\r\n    }\r\n}\r\n\r\nwindow.customElements.define('testimonial-cards', TestimonialCards);\r\n\n\n//# sourceURL=webpack:///./src/components/TestimonialCards/TestimonialCards.js?");
+
+/***/ }),
+
 /***/ "./src/js/app.js":
 /*!***********************!*\
   !*** ./src/js/app.js ***!
@@ -346,7 +358,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lit_
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _components_Header_Header__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/Header/Header */ \"./src/components/Header/Header.js\");\n\r\n\n\n//# sourceURL=webpack:///./src/js/app.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _components_Header_Header__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/Header/Header */ \"./src/components/Header/Header.js\");\n/* harmony import */ var _components_TestimonialCards_TestimonialCards__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/TestimonialCards/TestimonialCards */ \"./src/components/TestimonialCards/TestimonialCards.js\");\n\r\n\r\n\n\n//# sourceURL=webpack:///./src/js/app.js?");
 
 /***/ })
 
