@@ -699,6 +699,12 @@ body {
   padding-left: 0;
   padding-right: 0;
 }
+.content #benefits .card {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .content #benefits .card-text {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
