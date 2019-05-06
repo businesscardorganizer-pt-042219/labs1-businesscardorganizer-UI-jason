@@ -1,0 +1,100 @@
+// Display and position
+.evenly-spaced() {
+    align-items: center;
+    justify-content: space-around;
+}
+
+.flex() {
+    display: flex;
+}
+
+.flex-centered() {
+    align-items: center;
+    justify-content: center;
+}
+
+.stacked() {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fixed() {
+    position: fixed;
+}
+
+.inb() {
+    display: inline-block;
+}
+
+.bottom() {
+    bottom: 0;
+}
+
+.left() {
+    left: 0;
+}
+
+.top() {
+    top: 0;
+}
+
+.mtop(@length) {
+    margin-top: @length;
+}
+
+.mlr(@length) {
+    margin-left: @length;
+    margin-right: @length;
+}
+
+.mtop50() {
+    .mtop(50px);
+};
+
+.plr(@length) {
+    padding-left: @length;
+    padding-right: @length;
+}
+
+// Shapes and sizes
+.b-bottom(@width: 1px; @type: solid; @color: @color-black) {
+    border-bottom: @width @type @color;
+}
+
+.bordered(@width: 1px; @type: solid; @color: @color-black) {
+    border-top: @width @type @color;
+    border-right: @width @type @color;
+    border-bottom: @width @type @color;
+    border-left: @width @type @color;
+}
+
+.fullw() {
+    width: 100%;
+}
+
+.halfw {
+    width: 50%;
+}
+
+.rounded(@radius: 5px) {
+    border-radius: @radius;
+}
+
+// Colors
+.bg-trans() {
+    background: transparent;
+}
+
+.bg-inherit() {
+    background: inherit;
+}
+
+.bg-light() {
+    background: @color-white;
+}
+
+.bg-dark() {
+    background: @color-black;
+}
