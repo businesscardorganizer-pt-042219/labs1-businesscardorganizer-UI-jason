@@ -3,7 +3,7 @@
     background: @color-primary;
     display: flex;
     .fixed();
-    font-size: 1rem;
+    font-size: .8rem;
     justify-content: space-between;
     max-height: 50px;
     .top();
@@ -36,7 +36,7 @@
             }
 
             &-item {
-                font-size: 0.6em;
+                font-size: 0.8em;
             }
         }
 
@@ -45,6 +45,11 @@
     #secondary {
         .evenly-spaced();
         .flex();
-        .halfw();
+        justify-content: flex-end;
+        width: 70%;
+
+        .btn {
+            .mr(.6em);
+        }
     }
 }

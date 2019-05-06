@@ -585,6 +585,12 @@ a:focus {
 .halfw {
   width: 50%;
 }
+.bg-primary-45 {
+  background: linear-gradient(to top right, #C2EEEC 0%, #C2EEEC 49%, #21827E 51%);
+}
+.bg-secondary-45r {
+  background: linear-gradient(to bottom right, #B35E1A 0%, #B35E1A 49%, #FFD3AF 51%);
+}
 :root,
 body {
   font-family: "Inter", sans-serif;
@@ -685,16 +691,20 @@ body {
 }
 .content #testimonials {
   background: #C2EEEC;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+.content #benefits .card-text {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 #page-header {
   align-items: center;
   background: #5BB3B0;
   display: flex;
   position: fixed;
-  font-size: 1rem;
+  font-size: 0.8rem;
   justify-content: space-between;
   max-height: 50px;
   top: 0;
@@ -720,13 +730,17 @@ body {
   width: 100%;
 }
 #page-header #primary .nav-item {
-  font-size: 0.6em;
+  font-size: 0.8em;
 }
 #page-header #secondary {
   align-items: center;
   justify-content: space-around;
   display: flex;
-  width: 50%;
+  justify-content: flex-end;
+  width: 70%;
+}
+#page-header #secondary .btn {
+  margin-right: 0.6em;
 }
 .btn {
   border-top: 1px solid #389491;
@@ -736,7 +750,7 @@ body {
   background: #EEFCFB;
   color: #003333;
   display: inline-block;
-  padding: 0.5rem 1rem;
+  padding: 0.5em 1em;
   border-radius: 5px;
   text-decoration: none;
 }
@@ -757,9 +771,6 @@ body {
 .cards .card {
   margin: auto;
   padding-bottom: 1rem;
-}
-.cards .card ~ .card {
-  margin-top: 0.5rem;
 }
 .cards .card-stacked {
   align-items: center;
@@ -805,7 +816,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
-  width: 90%;
+  width: 100%;
 }
 #testimonials .cards .card {
   border-top: 1px solid #C7D6D4;

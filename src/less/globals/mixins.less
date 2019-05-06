@@ -134,3 +134,25 @@
 .bg-dark() {
     background: @color-black;
 }
+
+.bg45(@startColor; @endColor) {
+    background: linear-gradient(to top right,
+        @startColor 0%,
+        @startColor 49%,
+        @endColor 51%);
+}
+
+.bg45r(@startColor; @endColor) {
+    background: linear-gradient(to bottom right,
+        @startColor 0%,
+        @startColor 49%,
+        @endColor 51%);
+}
+
+.bg-primary-45 {
+    .bg45(@color-primary-lighter, @color-primary-darker);
+}
+
+.bg-secondary-45r {
+    .bg45r(@color-secondary-darker, @color-secondary-lighter);
+}
