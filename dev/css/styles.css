@@ -709,20 +709,26 @@ body {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
 }
-#page-header {
-  align-items: center;
+#header-wrapper {
   background: #5BB3B0;
-  display: flex;
   position: fixed;
-  font-size: 0.8rem;
-  justify-content: space-between;
   max-height: 50px;
   top: 0;
+  width: 100%;
+}
+#page-header {
+  align-items: center;
+  display: flex;
+  font-size: 0.8rem;
+  justify-content: space-between;
   width: 100%;
 }
 #page-header .logo img {
   background: #EEFCFB;
   width: 50px;
+}
+#page-header .company-name {
+  line-height: 1;
 }
 #page-header #primary {
   align-items: center;
@@ -837,7 +843,7 @@ body {
   border-right: 1px solid #C7D6D4;
   border-bottom: 1px solid #C7D6D4;
   border-left: 1px solid #C7D6D4;
-  border-radius: 3px;
+  border-radius: 5px;
   height: 150px;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
