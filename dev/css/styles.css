@@ -695,6 +695,10 @@ body {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+.content #benefits {
+  padding-left: 0;
+  padding-right: 0;
+}
 .content #benefits .card-text {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -808,6 +812,10 @@ body {
 }
 .cards .card-media-text {
   margin-left: 1rem;
+}
+.cards .card-fw {
+  margin-left: 0;
+  margin-right: 0;
 }
 #testimonials .cards {
   background: #EEFCFB;
