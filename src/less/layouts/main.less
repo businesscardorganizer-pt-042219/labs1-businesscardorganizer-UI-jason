@@ -2,11 +2,23 @@
     font-size: 1rem;
     .mtop50();
     .mbottom50();
-    .plr(1rem);
 
     &-headline {
         .b-bottom(1px, solid, @color-grey);
         font-size: 2.5em;
+        .p-bottom(1rem);
         text-align: center;
+    }
+
+    section {
+        .plr(1rem);
+    }
+
+    #roadmap {
+        background: @color-grey-lightest;
+
+        .card {
+            .b-bottom(@color: @color-grey);
+        }
     }
 }

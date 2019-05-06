@@ -657,13 +657,22 @@ body {
   font-size: 1rem;
   margin-top: 50px;
   margin-bottom: 50px;
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
 .content-headline {
   border-bottom: 1px solid #95B1AF;
   font-size: 2.5em;
+  padding-bottom: 1rem;
   text-align: center;
+}
+.content section {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.content #roadmap {
+  background: #F0F3F3;
+}
+.content #roadmap .card {
+  border-bottom: 1px solid #95B1AF;
 }
 #page-header {
   align-items: center;
@@ -723,4 +732,31 @@ body {
 .btn-secondary {
   background-color: #DA8038;
   color: #EEFCFB;
+}
+.cards {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.cards .card {
+  margin: auto;
+  padding: 1rem;
+}
+.cards .card ~ .card {
+  margin-top: 0.5rem;
+}
+.cards .card-stacked {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.cards .card-md {
+  max-width: 300px;
+  width: 100%;
+}
+.cards .card-img {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }

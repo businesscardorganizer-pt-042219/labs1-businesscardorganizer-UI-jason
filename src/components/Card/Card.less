@@ -1,0 +1,30 @@
+.cards {
+    align-items: center;
+    .flex();
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .card {
+        margin: auto;
+        .pad1r();
+
+        ~ .card {
+            .mtop(.5rem);
+        }
+
+        &-stacked {
+            .stacked();
+        }
+
+        &-md {
+            max-width: 300px;
+            width: 100%;
+        }
+
+        &-img {
+            .mtop(.5rem);
+            .mbottom(.5rem);
+        }
+    }
+
+}
