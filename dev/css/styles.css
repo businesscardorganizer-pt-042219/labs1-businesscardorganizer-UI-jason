@@ -654,6 +654,9 @@ html {
 body {
   background: #EEFCFB;
 }
+.fw-wrapper {
+  width: 100%;
+}
 .container {
   margin: 0 auto;
   max-width: 1024px;
@@ -802,16 +805,23 @@ body {
   font-size: 2rem;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+  text-align: center;
 }
 .cards .card-img {
+  display: block;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 .cards .card-img-small {
   width: 150px;
 }
 .cards .card-img-thumb {
   width: 100px;
+}
+.cards .card-img-large {
+  width: 300px;
 }
 .cards .card-media {
   align-items: center;
@@ -828,6 +838,11 @@ body {
 .cards .card-fw {
   margin-left: 0;
   margin-right: 0;
+  width: 100%;
+}
+.cards .card-text {
+  margin-left: auto;
+  margin-right: auto;
 }
 #testimonials .cards {
   background: #EEFCFB;

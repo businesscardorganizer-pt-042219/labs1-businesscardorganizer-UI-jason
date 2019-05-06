@@ -21,11 +21,14 @@
             font-size: 2rem;
             .mtop(.5rem);
             .mbottom(.5rem);
+            text-align: center;
         }
 
         &-img {
+            display: block;
             .mtop(.5rem);
             .mbottom(.5rem);
+            .mcenter();
 
             &-small {
                 width: 150px;
@@ -33,6 +36,10 @@
 
             &-thumb {
                 width: 100px;
+            }
+
+            &-large {
+                width: 300px;
             }
         }
 
@@ -53,6 +60,11 @@
 
         &-fw {
             .mlr(0);
+            .fullw();
+        }
+
+        &-text {
+            .mcenter();
         }
     }
 
