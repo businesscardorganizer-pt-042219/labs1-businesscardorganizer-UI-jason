@@ -659,9 +659,9 @@ body {
   margin-bottom: 50px;
 }
 .content-headline {
-  border-bottom: 1px solid #95B1AF;
   font-size: 2.5em;
-  padding-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
   text-align: center;
 }
 .content .section {
@@ -670,6 +670,8 @@ body {
 }
 .content .section-heading {
   font-size: 2.3rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
   text-align: center;
 }
 .content #roadmap {
@@ -680,6 +682,11 @@ body {
 }
 .content #roadmap .card:last-child {
   border-bottom: none;
+}
+.content #testimonials {
+  background: #C2EEEC;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 #page-header {
   align-items: center;
@@ -765,8 +772,49 @@ body {
 }
 .cards .card-heading {
   font-size: 2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 .cards .card-img {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+}
+.cards .card-img-small {
+  width: 150px;
+}
+.cards .card-img-thumb {
+  width: 100px;
+}
+.cards .card-media {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.cards .card-media-img {
+  border-radius: 50%;
+}
+.cards .card-media-text {
+  margin-left: 1rem;
+}
+#testimonials .cards {
+  background: #EEFCFB;
+  height: 150px;
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  width: 90%;
+}
+#testimonials .cards .card {
+  border-top: 1px solid #C7D6D4;
+  border-right: 1px solid #C7D6D4;
+  border-bottom: 1px solid #C7D6D4;
+  border-left: 1px solid #C7D6D4;
+  border-radius: 3px;
+  height: 150px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }

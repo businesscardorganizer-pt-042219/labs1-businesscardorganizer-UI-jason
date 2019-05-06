@@ -23,11 +23,36 @@
 
         &-heading {
             font-size: 2rem;
+            .mtop(.5rem);
+            .mbottom(.5rem);
         }
 
         &-img {
             .mtop(.5rem);
             .mbottom(.5rem);
+
+            &-small {
+                width: 150px;
+            }
+
+            &-thumb {
+                width: 100px;
+            }
+        }
+
+        &-media {
+            align-items: center;
+            .flex();
+            justify-content: space-between;
+            .fullw();
+
+            &-img {
+                .rounded(50%);
+            }
+
+            &-text {
+                .ml(1rem);
+            }
         }
     }
 

@@ -4,9 +4,9 @@
     .mbottom50();
 
     &-headline {
-        .b-bottom(1px, solid, @color-grey);
         font-size: 2.5em;
-        .p-bottom(1rem);
+        .p-bottom(.5rem);
+        .ptop(.5rem);
         text-align: center;
     }
 
@@ -15,6 +15,8 @@
 
         &-heading {
             font-size: 2.3rem;
+            .mbottom(.5rem);
+            .mtop(.5rem);
             text-align: center;
         }
     }
@@ -29,5 +31,11 @@
                 border-bottom: none;
             }
         }
+    }
+
+    #testimonials {
+        background: @color-primary-lighter;
+        .ptop(1rem);
+        .p-bottom(1rem);
     }
 }

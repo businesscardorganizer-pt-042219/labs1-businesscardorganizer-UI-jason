@@ -52,9 +52,21 @@
     margin-top: @length;
 }
 
+.ml(@length) {
+    margin-left: @length;
+}
+
+.mr(@length) {
+    margin-right: @length;
+}
+
 .mlr(@length) {
     margin-left: @length;
     margin-right: @length;
+}
+
+.mcenter() {
+    .mlr(auto);
 }
 
 .mtop50() {
@@ -67,6 +79,10 @@
 
 .pad1r() {
     .pad(1rem);
+}
+
+.ptop(@length) {
+    padding-top: @length;
 }
 
 .p-bottom(@length) {
