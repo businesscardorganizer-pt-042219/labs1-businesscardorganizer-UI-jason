@@ -656,6 +656,7 @@ body {
 .content {
   font-size: 1rem;
   margin-top: 50px;
+  margin-bottom: 50px;
   padding-left: 1rem;
   padding-right: 1rem;
 }
