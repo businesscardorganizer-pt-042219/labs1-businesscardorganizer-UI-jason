@@ -40,8 +40,11 @@ class TestimonialCards extends LitElement {
                                 <span class="testimonial-name">~ ${prop.name}</span>
                             </p>
                         </div>
-                        `;
-                    })}
+                    `;
+                })}
+            </div>
+            <div class="counter">
+                ${this.props.map(prop => html`<div class="counter-item"></div>`)}
             </div>
         `;
     }

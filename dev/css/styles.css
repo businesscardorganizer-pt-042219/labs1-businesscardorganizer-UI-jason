@@ -685,6 +685,7 @@ body {
 }
 .content #testimonials {
   background: #C2EEEC;
+  font-size: 0.9rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
@@ -817,4 +818,11 @@ body {
   padding-bottom: 0.5rem;
   padding-left: 1rem;
   padding-right: 1rem;
+}
+#testimonials .cards .card-text {
+  font-style: italic;
+}
+#testimonials .cards .card-text .testimonial-name {
+  display: inline-block;
+  margin-top: 0.5rem;
 }
