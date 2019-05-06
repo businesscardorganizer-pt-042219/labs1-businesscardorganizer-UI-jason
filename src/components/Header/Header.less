@@ -1,0 +1,50 @@
+#page-header {
+    align-items: center;
+    background: @color-primary;
+    display: flex;
+    .fixed();
+    font-size: 1rem;
+    justify-content: space-between;
+    max-height: 50px;
+    .top();
+    .fullw();
+
+    .logo {
+        
+        img {
+            background: @color-white;
+            width: 50px;
+        }
+    }
+
+    #primary {
+        align-items: center;
+        .bottom();
+        background-color: @color-grey-light;
+        display: flex;
+        height: 50px;
+        .left();
+        .fixed();
+        .fullw();
+
+        .nav {
+            
+            &-list {
+                display: flex;
+                justify-content: space-around;
+                .fullw();
+            }
+
+            &-item {
+                font-size: 0.6em;
+            }
+        }
+
+    }
+
+    #secondary {
+        .evenly-spaced();
+        .flex();
+        .halfw();
+    }
+}
