@@ -290,6 +290,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 
 /***/ }),
 
+/***/ "./src/components/FAQAccordion/FAQAccordion.js":
+/*!*****************************************************!*\
+  !*** ./src/components/FAQAccordion/FAQAccordion.js ***!
+  \*****************************************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lit_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lit-element */ \"./node_modules/lit-element/lit-element.js\");\n\r\n\r\nclass FAQAccordion extends lit_element__WEBPACK_IMPORTED_MODULE_0__[\"LitElement\"] {\r\n    static get properties() {\r\n        return {\r\n            faqs: {type: Array},\r\n        }\r\n    }\r\n\r\n    constructor() {\r\n        super();\r\n        this.faqs = [\r\n            {\r\n                question: \"Question 1\",\r\n                answer: \"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum distinctio voluptatem.\",\r\n            },\r\n            {\r\n                question: \"Question 2\",\r\n                answer: \"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum distinctio voluptatem.\",\r\n            },\r\n            {\r\n                question: \"Question 3\",\r\n                answer: \"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum distinctio voluptatem.\",\r\n            },\r\n            {\r\n                question: \"Question 4\",\r\n                answer: \"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum distinctio voluptatem.\",\r\n            },\r\n        ]\r\n    }\r\n\r\n    clickHandler(e) {\r\n        document.querySelectorAll('.accordion-body').forEach(el => {\r\n            if (el !== e.target.nextElementSibling) {\r\n                el.classList.remove('active');\r\n            }\r\n        });\r\n        e.target.nextElementSibling.classList.toggle('active');\r\n    }\r\n\r\n    render() {\r\n        return lit_element__WEBPACK_IMPORTED_MODULE_0__[\"html\"]`\r\n            <section id=\"faqs\" class=\"section container\">\r\n                <h2 class=\"section-heading\">Frequently Asked Questions</h2>\r\n                <div class=\"accordion\">\r\n                ${this.faqs.map((faq, i) => {\r\n                    return lit_element__WEBPACK_IMPORTED_MODULE_0__[\"html\"]`\r\n                        <div class=\"accordion-container\">\r\n                            <h3 class=\"accordion-title\" @click=\"${this.clickHandler}\">${i + 1}: ${faq.question}</h3>\r\n                            <div class=\"accordion-body\">${faq.answer}</div>\r\n                        </div>\r\n                    `;\r\n                })}\r\n                </div>\r\n            </section>\r\n        `;\r\n    }\r\n\r\n    createRenderRoot() {\r\n        return this;\r\n    }\r\n}\r\n\r\nwindow.customElements.define('faq-accordion', FAQAccordion);\r\n\n\n//# sourceURL=webpack:///./src/components/FAQAccordion/FAQAccordion.js?");
+
+/***/ }),
+
 /***/ "./src/components/Header/Header.js":
 /*!*****************************************!*\
   !*** ./src/components/Header/Header.js ***!
@@ -358,7 +370,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lit_
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _components_Header_Header__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/Header/Header */ \"./src/components/Header/Header.js\");\n/* harmony import */ var _components_TestimonialCards_TestimonialCards__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/TestimonialCards/TestimonialCards */ \"./src/components/TestimonialCards/TestimonialCards.js\");\n\r\n\r\n\n\n//# sourceURL=webpack:///./src/js/app.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _components_Header_Header__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/Header/Header */ \"./src/components/Header/Header.js\");\n/* harmony import */ var _components_TestimonialCards_TestimonialCards__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/TestimonialCards/TestimonialCards */ \"./src/components/TestimonialCards/TestimonialCards.js\");\n/* harmony import */ var _components_FAQAccordion_FAQAccordion__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/FAQAccordion/FAQAccordion */ \"./src/components/FAQAccordion/FAQAccordion.js\");\n\r\n\r\n\r\n\n\n//# sourceURL=webpack:///./src/js/app.js?");
 
 /***/ })
 
