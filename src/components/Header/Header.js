@@ -5,9 +5,9 @@ import '../NavPrimary/NavPrimary';
 class Header extends LitElement {
     render() {
         return html`
-            <header id="primary" class="header">
+            <header id="page-header" class="header">
                 <!-- Logo Img -->
-                <logo-img></logo-img>
+                <logo-img class="logo"></logo-img>
                 <!-- Primary Nav -->
                 <nav-primary></nav-primary>
                 <!-- buttons - secondary nav -->
