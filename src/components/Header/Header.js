@@ -11,6 +11,14 @@ class Header extends LitElement {
                 <!-- Primary Nav -->
                 <nav-primary></nav-primary>
                 <!-- buttons - secondary nav -->
+                <nav id="secondary" class="nav-btns">
+                    <a href="login" class="btn btn-primary-light">
+                        Log In
+                    </a>
+                    <a href="register" class="btn btn-secondary">
+                        Sign Up
+                    </a>
+                </nav>
             </header>
         `;
     }

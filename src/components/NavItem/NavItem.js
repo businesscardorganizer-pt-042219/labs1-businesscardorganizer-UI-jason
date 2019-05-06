@@ -14,11 +14,9 @@ class NavItem extends LitElement {
     render() {
         const {href, title, text} = this.props;
         return html`
-            <li class="nav-item">
-                <a href="${href}" title="${title}">
-                    ${text}
-                </a>
-            </li>
+            <a href="${href}" title="${title}">
+                ${text}
+            </a>
         `;
     }
 

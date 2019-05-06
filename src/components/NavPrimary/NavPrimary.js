@@ -38,7 +38,9 @@ class NavPrimary extends LitElement {
                 <ul class="nav-list">
                     ${this.navItems.map(item => {
                         return html`
-                            <nav-item .props="${item}"></nav-item>
+                            <li class="nav-item">
+                                <nav-item .props="${item}"></nav-item>
+                            </li>
                         `;
                     })}
                 </ul>
