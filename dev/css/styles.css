@@ -588,8 +588,8 @@ a:focus {
 .bg-primary-45 {
   background: linear-gradient(to top right, #C2EEEC 0%, #C2EEEC 49%, #21827E 51%);
 }
-.bg-secondary-45r {
-  background: linear-gradient(to bottom right, #B35E1A 0%, #B35E1A 49%, #FFD3AF 51%);
+.bg-secondary-45 {
+  background: linear-gradient(to top right, #B35E1A 0%, #B35E1A 49%, #FFD3AF 51%);
 }
 :root,
 body {
@@ -667,7 +667,6 @@ body {
 }
 .content {
   font-size: 1rem;
-  margin-top: 50px;
 }
 .content-headline {
   font-size: 2.5em;
@@ -708,7 +707,7 @@ body {
   align-items: center;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .content #benefits .card-text {
   padding-left: 0.5rem;
