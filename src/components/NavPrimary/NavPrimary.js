@@ -10,7 +10,7 @@ class NavPrimary extends LitElement {
         super();
         this.navItems = [
             {
-                href: `#`,
+                href: `.`,
                 title: `Home Page`,
                 icon: `https://png.icons8.com/material-outlined/home-page/B35E1A/32`,
                 text: `Home`,
