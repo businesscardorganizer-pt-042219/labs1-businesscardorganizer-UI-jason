@@ -750,6 +750,7 @@ body {
 }
 #header-wrapper {
   background: #5BB3B0;
+  box-shadow: 0 2px 5px #C2EEEC;
   position: fixed;
   max-height: 50px;
   top: 0;
@@ -777,6 +778,7 @@ body {
 #page-header #primary {
   align-items: center;
   bottom: 0;
+  box-shadow: 0 -1px 5px #95B1AF;
   background-color: #C7D6D4;
   display: flex;
   height: 50px;
