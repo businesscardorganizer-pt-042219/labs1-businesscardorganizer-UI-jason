@@ -740,6 +740,9 @@ body {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
 }
+.no-hero .content {
+  margin-top: 60px;
+}
 .hero {
   align-items: center;
   background: linear-gradient(to top right, #C2EEEC 0%, #21827E 50%, #C2EEEC 100%);
