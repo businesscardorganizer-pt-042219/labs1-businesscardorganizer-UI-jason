@@ -140,11 +140,19 @@
     background: @color-black;
 }
 
+.txt-light {
+    color: @color-white;
+}
+
 .bg-grad-horiz(@startColor; @endColor) {
-    background: linear-gradient(to right,
-        @startColor 0%,
-        @startColor 49.9%,
-        @endColor 50.1%);
+    background: @startColor;
+
+    @media @medium {
+        background: linear-gradient(to right,
+            @startColor 0%,
+            @startColor 49.9%,
+            @endColor 50.1%);
+    }
 }
 
 .bg-primary-grad-horiz {
