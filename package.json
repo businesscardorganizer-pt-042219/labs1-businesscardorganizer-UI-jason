@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-js": "rm app.bundle* && webpack --config webpack.prod.config.js --mode=production",
+    "build-js": "rm js/app.bundle* && webpack --config webpack.prod.config.js --mode=production",
     "build-less": "lessc --clean-css src/less/styles.less css/styles.css",
     "watch-js": "webpack --config webpack.dev.config.js --watch --mode=development",
     "watch-less": "less-watch-compiler src/less dev/css styles.less",
