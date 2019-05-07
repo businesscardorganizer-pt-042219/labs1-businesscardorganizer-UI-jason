@@ -30,30 +30,35 @@ class TabBox extends LitElement {
 
     clickHandler(e) {
         e.preventDefault();
-        const tabs = this.querySelectorAll('.tab-content-single');
+        const tabContents = this.querySelectorAll('.tab-content-single');
+        const tabLinks = this.querySelectorAll('.tab');
         const tabId = e.target.dataset.tab
         const target = this.querySelector(`.tab-content [data-tab="${tabId}"`)
-        tabs.forEach(tab => tab.classList.remove('active'));
+        tabLinks.forEach(link => link.classList.remove('active'));
+        tabContents.forEach(tab => tab.classList.remove('active'));
+        e.target.classList.add('active');
         target.classList.add('active');
     }
 
     render() {
         return html`
-            <div class="tab-links">
-                ${this.props.map(prop => {
-                    return html`
-                        <a @click="${this.clickHandler}" class="tab" href="#" data-tab="${prop.id}">${prop.name}</a>
-                    `;
-                })}
-            </div>
-            <div class="tab-content">
-                ${this.props.map(prop => {
-                    return html`
-                        <div class="tab-content-single" data-tab="${prop.id}">
-                            ${prop.content}
-                        </div>
-                    `;
-                })}
+            <div class="tab-box">
+                <div class="tab-links">
+                    ${this.props.map(prop => {
+                        return html`
+                            <a @click="${this.clickHandler}" class="tab" href="#" data-tab="${prop.id}">${prop.name}</a>
+                        `;
+                    })}
+                </div>
+                <div class="tab-content">
+                    ${this.props.map(prop => {
+                        return html`
+                            <div class="tab-content-single" data-tab="${prop.id}">
+                                ${prop.content}
+                            </div>
+                        `;
+                    })}
+                </div>
             </div>
         `;
     }
