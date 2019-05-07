@@ -1,0 +1,73 @@
+.form {
+    align-items: flex-start;
+    .flex();
+    flex-direction: column;
+    justify-content: center;
+    .plr(.5rem);
+
+    .field {
+        align-items: center;
+        .flex();
+        justify-content: center;
+        .mbottom(10px);
+        width: 100%;
+
+        label {
+            width: 20%;
+
+            @media @small {
+                width: 15%;
+            }
+
+            @media @medium {
+                width: 10%;
+            }
+        }
+
+        input[type="text"],
+        input[type="email"],
+        select {
+            .rounded();
+            .ptb(.5rem);
+            .plr(1rem);
+            width: 80%;
+
+            @media @small {
+                width: 85%;
+            }
+
+            @media @medium {
+                width: 90%;
+            }
+        }
+
+        label[for="human"] {
+            width: 100%;
+        }
+
+        input[type="checkbox"] {
+            width: 2rem;
+        }
+
+        &-fw {
+            align-items: flex-start;
+            flex-direction: column;
+
+            label {
+                .mbottom(5px);
+            }
+
+            textarea {
+                .rounded();
+                .ptb(.5rem);
+                .plr(1rem);
+                width: 100%;
+            }
+        }
+    }
+
+    .btn-submit {
+        .mtop(1rem);
+        .mbottom(1rem);
+    }
+}
