@@ -795,6 +795,9 @@ body {
   margin-bottom: 1rem;
   padding: 0 1rem;
 }
+.about-page #team .card-media {
+  padding-bottom: 0.5rem;
+}
 .about-page #cta {
   margin-top: 0;
 }
