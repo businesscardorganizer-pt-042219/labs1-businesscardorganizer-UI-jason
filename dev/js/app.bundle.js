@@ -126,7 +126,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /*!*************************************************!*\
   !*** ./node_modules/lit-element/lit-element.js ***!
   \*************************************************/
-/*! exports provided: html, svg, TemplateResult, SVGTemplateResult, LitElement, defaultConverter, notEqual, UpdatingElement, customElement, property, query, queryAll, eventOptions, supportsAdoptingStyleSheets, CSSResult, unsafeCSS, css */
+/*! exports provided: defaultConverter, notEqual, UpdatingElement, customElement, property, query, queryAll, eventOptions, html, svg, TemplateResult, SVGTemplateResult, supportsAdoptingStyleSheets, CSSResult, unsafeCSS, css, LitElement */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -394,7 +394,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lit_
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _components_Header_Header__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/Header/Header */ \"./src/components/Header/Header.js\");\n/* harmony import */ var _components_TestimonialCards_TestimonialCards__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/TestimonialCards/TestimonialCards */ \"./src/components/TestimonialCards/TestimonialCards.js\");\n/* harmony import */ var _components_FAQAccordion_FAQAccordion__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/FAQAccordion/FAQAccordion */ \"./src/components/FAQAccordion/FAQAccordion.js\");\n/* harmony import */ var _components_EndOfPage_EndOfPage__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/EndOfPage/EndOfPage */ \"./src/components/EndOfPage/EndOfPage.js\");\n\r\n\r\n\r\n\r\n\n\n//# sourceURL=webpack:///./src/js/app.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _components_Header_Header__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/Header/Header */ \"./src/components/Header/Header.js\");\n/* harmony import */ var _components_TestimonialCards_TestimonialCards__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/TestimonialCards/TestimonialCards */ \"./src/components/TestimonialCards/TestimonialCards.js\");\n/* harmony import */ var _components_FAQAccordion_FAQAccordion__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/FAQAccordion/FAQAccordion */ \"./src/components/FAQAccordion/FAQAccordion.js\");\n/* harmony import */ var _components_EndOfPage_EndOfPage__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/EndOfPage/EndOfPage */ \"./src/components/EndOfPage/EndOfPage.js\");\n/* harmony import */ var _components_PageFooter_PageFooter__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/PageFooter/PageFooter */ \"./src/components/PageFooter/PageFooter.js\");\n\r\n\r\n\r\n\r\n\r\n\n\n//# sourceURL=webpack:///./src/js/app.js?");
 
 /***/ })
 
