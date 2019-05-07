@@ -586,10 +586,10 @@ a:focus {
   width: 50%;
 }
 .bg-primary-grad-horiz {
-  background: linear-gradient(to right, #C2EEEC 0%, #C2EEEC 49%, #21827E 51%);
+  background: linear-gradient(to right, #C2EEEC 0%, #C2EEEC 49.9%, #21827E 50.1%);
 }
 .bg-secondary-grad-horiz {
-  background: linear-gradient(to right, #B35E1A 0%, #B35E1A 49%, #FFD3AF 51%);
+  background: linear-gradient(to right, #B35E1A 0%, #B35E1A 49.9%, #FFD3AF 50.1%);
 }
 :root,
 body {
