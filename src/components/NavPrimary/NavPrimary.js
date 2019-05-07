@@ -28,7 +28,7 @@ class NavPrimary extends LitElement {
                 text: `Features`,
             },
             {
-                href: `#`,
+                href: `contact.html`,
                 title: `Contact Us`,
                 icon: `https://png.icons8.com/material-outlined/contacts/B35E1A/32`,
                 text: `Contact`,
