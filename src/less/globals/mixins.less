@@ -140,24 +140,17 @@
     background: @color-black;
 }
 
-.bg45(@startColor; @endColor) {
-    background: linear-gradient(to top right,
+.bg-grad-horiz(@startColor; @endColor) {
+    background: linear-gradient(to right,
         @startColor 0%,
         @startColor 49%,
         @endColor 51%);
 }
 
-.bg45r(@startColor; @endColor) {
-    background: linear-gradient(to bottom right,
-        @startColor 0%,
-        @startColor 49%,
-        @endColor 51%);
+.bg-primary-grad-horiz {
+    .bg-grad-horiz(@color-primary-lighter, @color-primary-darker);
 }
 
-.bg-primary-45 {
-    .bg45(@color-primary-lighter, @color-primary-darker);
-}
-
-.bg-secondary-45 {
-    .bg45(@color-secondary-darker, @color-secondary-lighter);
+.bg-secondary-grad-horiz {
+    .bg-grad-horiz(@color-secondary-darker, @color-secondary-lighter);
 }
