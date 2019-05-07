@@ -22,7 +22,7 @@ class NavPrimary extends LitElement {
                 text: `About`,
             },
             {
-                href: `#`,
+                href: `features.html`,
                 title: `All Features`,
                 icon: `https://png.icons8.com/material-outlined/features-list/B35E1A/32`,
                 text: `Features`,
