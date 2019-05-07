@@ -1,18 +1,30 @@
 #testimonials .cards {
     .bg-light();
+    .rounded();
     height: 150px;
     .mbottom(1rem);
     .mcenter();
     overflow: hidden;
+    position: relative;
     .fullw();
 
     .card {
         .bordered(1px, solid, @color-grey-light);
         .rounded();
         height: 150px;
+        left: 0;
+        opacity: 0;
         .ptop(.5rem);
         .p-bottom(.5rem);
         .plr(1rem);
+        position: absolute;
+        top: 0;
+        transition: opacity .5s;
+
+        &.active {
+            opacity: 1;
+            transition: opacity 1s .8s;
+        }
 
         &-text {
             font-style: italic;
@@ -21,6 +33,11 @@
                 display: inline-block;
                 .mtop(.5rem);
             }
+        }
+
+        &-img {
+            width: 100px;
+            height: 100px;
         }
     }
 }
