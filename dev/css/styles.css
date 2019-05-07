@@ -687,6 +687,11 @@ body {
 .fh {
   min-height: calc(100vh - 100px);
 }
+@media (min-width: 768px) {
+  .fh {
+    min-height: calc(100vh - 50px);
+  }
+}
 .no-border {
   border-top: none;
   border-right: none;
