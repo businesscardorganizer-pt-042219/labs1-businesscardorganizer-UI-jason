@@ -22,7 +22,11 @@
     }
 
     .company-name {
+        color: @color-white;
+        font-size: 3.6em;
         line-height: 1;
+        .ml(1rem);
+        text-shadow: 1.5px 1.5px rgba(46, 46, 46, .5);
     }
 
     #primary {
@@ -44,7 +48,16 @@
             }
 
             &-item {
-                font-size: 0.8em;
+                // font-size: 0.8em;
+            }
+
+            &-link {
+                align-items: center;
+                border-bottom: none;
+                .flex();
+                flex-direction: column;
+                font-weight: bold;
+                justify-content: center;
             }
         }
 

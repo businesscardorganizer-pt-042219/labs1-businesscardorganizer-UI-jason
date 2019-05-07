@@ -12,21 +12,25 @@ class NavPrimary extends LitElement {
             {
                 href: `#`,
                 title: `Home Page`,
+                icon: `https://png.icons8.com/material-outlined/home-page/B35E1A/32`,
                 text: `Home`,
             },
             {
                 href: `#`,
                 title: `About Us`,
+                icon: `https://png.icons8.com/material-outlined/about/B35E1A/32`,
                 text: `About`,
             },
             {
                 href: `#`,
                 title: `All Features`,
+                icon: `https://png.icons8.com/material-outlined/features-list/B35E1A/32`,
                 text: `Features`,
             },
             {
                 href: `#`,
                 title: `Contact Us`,
+                icon: `https://png.icons8.com/material-outlined/contacts/B35E1A/32`,
                 text: `Contact`,
             },
         ]

@@ -647,9 +647,9 @@ a:active {
   border-color: #F25C60;
   color: #F25C60;
 }
-html {
+html,
+body {
   overflow-x: hidden;
-  overflow-y: auto;
 }
 body {
   background: #EEFCFB;
@@ -665,7 +665,6 @@ body {
 .content {
   font-size: 1rem;
   margin-top: 50px;
-  margin-bottom: 60px;
 }
 .content-headline {
   font-size: 2.5em;
@@ -731,7 +730,11 @@ body {
   width: 50px;
 }
 #page-header .company-name {
+  color: #EEFCFB;
+  font-size: 3.6em;
   line-height: 1;
+  margin-left: 1rem;
+  text-shadow: 1.5px 1.5px rgba(46, 46, 46, 0.5);
 }
 #page-header #primary {
   align-items: center;
@@ -748,8 +751,13 @@ body {
   justify-content: space-around;
   width: 100%;
 }
-#page-header #primary .nav-item {
-  font-size: 0.8em;
+#page-header #primary .nav-link {
+  align-items: center;
+  border-bottom: none;
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  justify-content: center;
 }
 #page-header #secondary {
   align-items: center;
@@ -780,6 +788,14 @@ body {
 .btn-secondary {
   background-color: #DA8038;
   color: #EEFCFB;
+}
+.btn-large {
+  font-size: 2rem;
+  padding: 1rem 2rem;
+}
+.btn-centered {
+  margin-left: auto;
+  margin-right: auto;
 }
 .cards {
   align-items: center;
@@ -941,4 +957,28 @@ body {
   min-height: 40px;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+}
+.cta {
+  align-items: center;
+  background: linear-gradient(to bottom, #C2EEEC, #8BD3D0, #C2EEEC);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  margin-top: 1.5rem;
+  padding: 2rem 3rem;
+}
+.cta * {
+  margin-bottom: 1rem;
+}
+#page-footer {
+  margin-bottom: 50px;
+}
+#page-footer .legal {
+  background: #F0F3F3;
+  padding: 1rem;
+  text-align: center;
+}
+#page-footer .legal small {
+  font-size: 0.7em;
 }

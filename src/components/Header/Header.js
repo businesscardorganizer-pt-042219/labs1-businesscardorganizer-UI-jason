@@ -9,7 +9,7 @@ class Header extends LitElement {
                 <header id="page-header" class="header container">
                     <!-- Logo Img -->
                     <logo-img class="logo"></logo-img>
-                    <h1 class="company-name">BCO</h1>
+                    <h1 class="company-name">BizQR</h1>
                     <!-- Primary Nav -->
                     <nav-primary></nav-primary>
                     <!-- buttons - secondary nav -->

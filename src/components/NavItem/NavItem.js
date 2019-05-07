@@ -12,9 +12,10 @@ class NavItem extends LitElement {
     }
 
     render() {
-        const {href, title, text} = this.props;
+        const {href, title, icon, text} = this.props;
         return html`
-            <a href="${href}" title="${title}">
+            <a class="nav-link" href="${href}" title="${title}">
+                <img class="nav-icon" src="${icon}" alt="${title} icon">
                 ${text}
             </a>
         `;
