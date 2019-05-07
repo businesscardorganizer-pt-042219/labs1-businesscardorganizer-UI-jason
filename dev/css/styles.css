@@ -591,7 +591,7 @@ a:focus {
 .bg-primary-grad-horiz {
   background: #C2EEEC;
 }
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   .bg-primary-grad-horiz {
     background: linear-gradient(to right, #C2EEEC 0%, #C2EEEC 49.9%, #21827E 50.1%);
   }
@@ -599,7 +599,7 @@ a:focus {
 .bg-secondary-grad-horiz {
   background: #B35E1A;
 }
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   .bg-secondary-grad-horiz {
     background: linear-gradient(to right, #B35E1A 0%, #B35E1A 49.9%, #FFD3AF 50.1%);
   }
@@ -775,6 +775,11 @@ body {
   margin-left: 1rem;
   text-shadow: 1.5px 1.5px rgba(46, 46, 46, 0.5);
 }
+@media (min-width: 768px) {
+  #page-header nav-primary {
+    width: 100%;
+  }
+}
 #page-header #primary {
   align-items: center;
   bottom: 0;
@@ -785,6 +790,14 @@ body {
   left: 0;
   position: fixed;
   width: 100%;
+}
+@media (min-width: 768px) {
+  #page-header #primary {
+    background-color: transparent;
+    bottom: unset;
+    margin-left: 1rem;
+    position: static;
+  }
 }
 #page-header #primary .nav-list {
   display: flex;
@@ -799,15 +812,53 @@ body {
   font-weight: bold;
   justify-content: center;
 }
+@media (min-width: 768px) {
+  #page-header #primary .nav-link {
+    font-weight: normal;
+  }
+}
+@media (min-width: 960px) {
+  #page-header #primary .nav-link {
+    flex-direction: row;
+    font-size: 1.3em;
+  }
+  #page-header #primary .nav-link .nav-icon {
+    margin-right: 5px;
+    width: 16px;
+  }
+}
+#page-header #primary .nav-link:hover {
+  border-bottom: 1px dashed #B35E1A;
+  color: #B35E1A;
+  opacity: 0.6;
+}
 #page-header #secondary {
   align-items: center;
-  justify-content: space-around;
   display: flex;
   justify-content: flex-end;
   width: 70%;
 }
 #page-header #secondary .btn {
   margin-right: 0.6em;
+}
+@media (min-width: 768px) {
+  #page-header #secondary {
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+  }
+  #page-header #secondary .btn {
+    margin-right: unset;
+  }
+}
+@media (min-width: 960px) {
+  #page-header #secondary {
+    justify-content: flex-end;
+  }
+  #page-header #secondary .btn {
+    margin-left: 10%;
+    padding: 0.6rem 1.2rem;
+  }
 }
 .btn {
   border-top: 1px solid #389491;
