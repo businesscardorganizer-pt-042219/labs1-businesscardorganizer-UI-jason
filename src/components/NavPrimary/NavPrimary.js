@@ -16,7 +16,7 @@ class NavPrimary extends LitElement {
                 text: `Home`,
             },
             {
-                href: `#`,
+                href: `about.html`,
                 title: `About Us`,
                 icon: `https://png.icons8.com/material-outlined/about/B35E1A/32`,
                 text: `About`,
