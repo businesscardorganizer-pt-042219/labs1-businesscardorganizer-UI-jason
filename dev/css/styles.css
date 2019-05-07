@@ -830,6 +830,9 @@ body {
   #page-header #primary .nav-link {
     font-weight: normal;
   }
+  #page-header #primary .nav-link .nav-icon {
+    width: 24px;
+  }
 }
 @media (min-width: 960px) {
   #page-header #primary .nav-link {
