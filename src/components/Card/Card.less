@@ -3,6 +3,7 @@
     .flex();
     flex-wrap: wrap;
     justify-content: space-between;
+}
 
     .card {
         margin: auto;
@@ -29,6 +30,10 @@
             .mtop(.5rem);
             .mbottom(.5rem);
             .mcenter();
+
+            &-icon {
+                width: 48px;
+            }
 
             &-thumb {
                 width: 100px;
@@ -62,7 +67,7 @@
             }
 
             &-text {
-                .ml(1rem);
+                .ml(.5rem);
             }
         }
 
@@ -71,4 +76,3 @@
             .fullw();
         }
     }
-}
