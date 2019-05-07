@@ -776,22 +776,21 @@ body {
   text-align: center;
 }
 .no-hero .content .top-content {
-  background: white;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   padding-bottom: 1rem;
 }
 .about-page #team {
-  background: #F0F3F3;
+  background: #C7D6D4;
   color: #21827E;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 .about-page #team .cards > .card {
-  border-top: 2px solid #C2EEEC;
-  border-right: 2px solid #C2EEEC;
-  border-bottom: 2px solid #C2EEEC;
-  border-left: 2px solid #C2EEEC;
+  border-top: 2px solid #8BD3D0;
+  border-right: 2px solid #8BD3D0;
+  border-bottom: 2px solid #8BD3D0;
+  border-left: 2px solid #8BD3D0;
   border-radius: 5px;
   margin-bottom: 1rem;
   padding: 0 1rem;
