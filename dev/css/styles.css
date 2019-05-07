@@ -722,6 +722,20 @@ body {
   flex-direction: column;
   justify-content: space-around;
 }
+@media (min-width: 768px) {
+  .content #benefits .bg-primary-grad-horiz .card-heading {
+    background: linear-gradient(to right, #21827E 0%, #21827E 49.9%, #C2EEEC 50.1%);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+  .content #benefits .bg-secondary-grad-horiz .card-heading {
+    background: linear-gradient(to right, #FFD3AF 0%, #FFD3AF 49.9%, #B35E1A 50.1%);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+}
 .content #benefits .card-text {
   padding-left: 0.5rem;
   padding-right: 0.5rem;

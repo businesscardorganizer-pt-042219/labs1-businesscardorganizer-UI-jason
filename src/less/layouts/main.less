@@ -48,6 +48,32 @@
             justify-content: space-around;
         }
 
+        @media @medium {
+            .bg-primary-grad-horiz .card-heading {
+                background: linear-gradient(
+                    to right,
+                    @color-primary-darker 0%,
+                    @color-primary-darker 49.9%,
+                    @color-primary-lighter 50.1%
+                );
+                color: transparent;
+                background-clip: text;
+                -webkit-background-clip: text;
+            }
+    
+            .bg-secondary-grad-horiz .card-heading {
+                background: linear-gradient(
+                    to right,
+                    @color-secondary-lighter 0%,
+                    @color-secondary-lighter 49.9%,
+                    @color-secondary-darker 50.1%
+                );
+                color: transparent;
+                background-clip: text;
+                -webkit-background-clip: text;
+            }
+        }
+
         .card-text {
             .plr(.5rem);
         }
