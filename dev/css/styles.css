@@ -1169,6 +1169,11 @@ body {
 #page-footer {
   margin-bottom: 50px;
 }
+@media (min-width: 768px) {
+  #page-footer {
+    margin-bottom: 0;
+  }
+}
 #page-footer .legal {
   background: #F0F3F3;
   padding: 1rem;
