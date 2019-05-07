@@ -1,0 +1,26 @@
+.features {
+    .mtop(1.5rem);
+    .mbottom(1.5rem);
+    .mcenter();
+    max-width: 750px;
+    width: 100%;
+
+    tr {
+
+        &:nth-child(even) {
+            background: @color-primary-lighter;
+        }
+
+        &:hover {
+            background: @color-grey-light;
+        }
+    }
+
+
+    td {
+        .bordered(1px, solid, @color-secondary-darker);
+        .pad(.5rem);
+        text-align: center;
+
+    }
+}

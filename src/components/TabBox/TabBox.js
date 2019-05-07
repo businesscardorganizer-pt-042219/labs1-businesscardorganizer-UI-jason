@@ -26,6 +26,11 @@ class TabBox extends LitElement {
                 content: "Porro iusto culpa sit, tempore sint mollitia cum dolores accusamus et ratione accusantium incidunt nostrum reiciendis. Alias corporis earum, repudiandae expedita repellat quos veritatis nobis sapiente quam aspernatur, itaque sint?",
             },
         ]
+
+        setTimeout(() => {
+            this.querySelector('.tab').classList.add('active');
+            this.querySelector('.tab-content-single').classList.add('active');
+        }, 200);
     }
 
     clickHandler(e) {
@@ -38,6 +43,11 @@ class TabBox extends LitElement {
         tabContents.forEach(tab => tab.classList.remove('active'));
         e.target.classList.add('active');
         target.classList.add('active');
+    }
+
+    handleLoaded(e) {
+        this.querySelector('.tab').classList.add('active');
+        this.querySelector('.tab-content-single').classList.add('active');
     }
 
     render() {

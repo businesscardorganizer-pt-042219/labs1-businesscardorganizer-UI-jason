@@ -6,7 +6,7 @@
     width: 100%;
     
     .tab-links {
-        .bordered(1px, solid, @color-secondary-darker);
+        .bordered(3px, solid, @color-secondary-darker);
         border-bottom: none;
         border-top-right-radius: 5px;
         border-top-left-radius: 5px;
@@ -14,7 +14,7 @@
         justify-content: flex-start;
 
         .tab + .tab {
-            border-left: 1px solid @color-secondary-darker;
+            border-left: 3px solid @color-secondary-darker;
         }
 
         .tab {
@@ -34,9 +34,9 @@
 
     .tab-content {
         background: @color-grey-lighter;
-        .bordered(1px, solid, @color-secondary-darker);
+        .bordered(3px, solid, @color-secondary-darker);
         overflow-y: auto;
-        min-height: 200px;
+        min-height: 150px;
         position: relative;
 
         &-single {
@@ -46,6 +46,7 @@
             .plr(1rem);
             position: absolute;
             top: 0;
+            transition: all .2s;
 
             &.active {
                 opacity: 1;
