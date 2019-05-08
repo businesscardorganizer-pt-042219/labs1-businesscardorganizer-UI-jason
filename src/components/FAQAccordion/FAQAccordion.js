@@ -11,20 +11,20 @@ class FAQAccordion extends LitElement {
         super();
         this.faqs = [
             {
-                question: "Question 1",
-                answer: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum distinctio voluptatem.",
+                question: "Scan, tag, and go? Is it really that simple?",
+                answer: "Yes! You may feel like you've hacked the system on life. Cracked the easy code. You might even feel like you need to do something to make it harder... but don't do that.",
             },
             {
-                question: "Question 2",
-                answer: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum distinctio voluptatem.",
+                question: "What if I don't want to use events to tag contacts?",
+                answer: "Use something else! The only limits are your own imagination. Hope you're not an unimaginative clod!",
             },
             {
-                question: "Question 3",
-                answer: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum distinctio voluptatem.",
+                question: "What about people who don't have the app, how do I share my code with them?",
+                answer: "Sorry, chap, I can't solve ALL your problems for you. But is someone who's not savvy enough to use this amazing app really someone you want to waste your time on?",
             },
             {
-                question: "Question 4",
-                answer: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum distinctio voluptatem.",
+                question: "What should I do about this rash on my-",
+                answer: "I'm just gonna ask you to stop right there. I told you I can't solve ALL your problems for you.",
             },
         ]
     }

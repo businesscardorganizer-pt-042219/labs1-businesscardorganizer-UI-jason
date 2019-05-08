@@ -14,10 +14,10 @@ class Header extends LitElement {
                     <nav-primary></nav-primary>
                     <!-- buttons - secondary nav -->
                     <nav id="secondary" class="nav-btns">
-                        <a href="login" class="btn btn-primary-light">
+                        <a target="_blank" href="https://hopeful-ride-580fdd.netlify.com/login" class="btn btn-primary-light">
                             Log In
                         </a>
-                        <a href="register" class="btn btn-secondary">
+                        <a target="_blank" href="https://hopeful-ride-580fdd.netlify.com/sign-up" class="btn btn-secondary">
                             Sign Up
                         </a>
                     </nav>

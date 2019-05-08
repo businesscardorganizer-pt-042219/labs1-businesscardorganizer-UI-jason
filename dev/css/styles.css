@@ -701,6 +701,9 @@ body {
 .text-left {
   text-align: left;
 }
+.content-text {
+  margin-bottom: 12px;
+}
 .content {
   font-size: 1rem;
 }
@@ -829,6 +832,7 @@ body {
   font-size: 2.2em;
 }
 .hero .btn {
+  color: #EEFCFB;
   text-shadow: 1.5px 1.5px rgba(253, 132, 135, 0.5);
 }
 #header-wrapper {
@@ -946,11 +950,14 @@ body {
     padding: 0.6rem 1rem;
   }
 }
-.btn {
+a.btn {
+  color: #EEFCFB;
   border-top: 1px solid #389491;
   border-right: 1px solid #389491;
   border-bottom: 1px solid #389491;
   border-left: 1px solid #389491;
+}
+.btn {
   background: #EEFCFB;
   color: #003333;
   display: inline-block;
@@ -1175,7 +1182,8 @@ body {
   margin-bottom: 1rem;
 }
 .cta-heading {
-  font-size: 2.4em;
+  font-size: 2.2em;
+  text-align: center;
 }
 #page-footer {
   margin-bottom: 50px;

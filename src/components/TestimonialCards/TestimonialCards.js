@@ -14,19 +14,19 @@ class TestimonialCards extends LitElement {
         super();
         this.props = [
             {
-                name: "John Doe",
+                name: "Jack Sproul, Small Business Owner",
                 image: "https://randomuser.me/api/portraits/men/81.jpg",
-                text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, laudantium corporis blanditiis commodi cum dolores nisi.",
+                text: "It's so easy it's idiot-proof! Trust me, even my son-in-law could figure it out.",
             },
             {
-                name: "Jane Doe",
+                name: "Ellen Hays",
                 image: "https://randomuser.me/api/portraits/women/29.jpg",
-                text: "Quisquam, possimus in esse, explicabo officiis fuga sequi perspiciatis praesentium culpa atque? Totam praesentium dolorem.",
+                text: "I love being able to see at a glance where I met someone without having to dig through sticky notes or wonder where I left the cards I got at a networking event.",
             },
             {
-                name: "Bill Dye",
+                name: "Terrence Philips",
                 image: "https://randomuser.me/api/portraits/men/83.jpg",
-                text: "Cumque, maiores veritatis laudantium nulla natus mollitia similique dolores, voluptatum maxime eligendi animi tempora blanditiis!",
+                text: "I never have to carry cards anymore. Save a tree! Anyone who's not on board with this brilliant technology isn't worth getting to know anyway.",
             },
         ];
 

@@ -12,18 +12,18 @@ class TabBox extends LitElement {
         this.props = [
             {
                 id: 1,
-                name: "Tab 1",
-                content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta repellendus maxime, nihil repellat cupiditate temporibus animi molestias architecto iusto optio quod maiores deleniti, laudantium aspernatur impedit, quae explicabo placeat repudiandae!",
+                name: "One Click",
+                content: "You'll have all your contacts' information within a single click. Phone number, website, and more! Plus you can search your contacts with ease for quick access to the information you need, right now.",
             },
             {
                 id: 2,
-                name: "Tab 2",
-                content: "Ad nostrum, provident excepturi laborum debitis iusto! Repudiandae veritatis quia corrupti excepturi quis ea officia quibusdam molestias, assumenda, ducimus, neque optio. Nemo voluptas aut omnis aliquid accusantium fuga obcaecati voluptatum?",
+                name: "Grow Fast",
+                content: "You'll grow your connections, faster, with a QR code linking you with your contacts faster than ever. You'll always know exactly who they are, what you can do for them (and vice versa), where you met them, and anything else you need to know to speed your growth.",
             },
             {
                 id: 3,
-                name: "Tab 3",
-                content: "Porro iusto culpa sit, tempore sint mollitia cum dolores accusamus et ratione accusantium incidunt nostrum reiciendis. Alias corporis earum, repudiandae expedita repellat quos veritatis nobis sapiente quam aspernatur, itaque sint?",
+                name: "Get Organized",
+                content: "The feeling of an organized, clean desk to a great feeling. Let us take one more thing off your desk. And the shoeboxes full of cards from under it. And the sticky notes off your monitor. Getting the picture yet?",
             },
         ]
 
